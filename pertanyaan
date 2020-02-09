@@ -1,0 +1,9 @@
+@echo off
+read -p '5 x 10 = ?' userinput1;
+#
+if["${userinput1:-}" = "50"]
+then
+  echo Benar
+if["${userinput1:-}" != "50"]
+then
+  echo Salah
